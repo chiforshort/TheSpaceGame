@@ -6,7 +6,11 @@ namespace TheSpaceGame
     {
         static void Main(string[] args)
         {
-            
+            Story.Introduction();
+            Story.UserCharacter();
+            Story.ShipMessage();
         }
     }
+
+    
 }
